@@ -238,24 +238,24 @@ button {
     }
 
     .aboutMeBox {
-        margin-left: 20px;
+        margin-left: 10px;
         margin-right: 0px;
-        float: none;
+        float: left;
         width: 60%;
         overflow: hidden;
     }
 
     .connectMeBox {
-        margin-left: 10px;
-        margin-bottom: 40px;
-        margin-right: 0px;
-        display: inline-block;
-        width: 30%;
+        margin:30px 20px 30px 40px;
+        width: 25%;
+        float: left;
+        width: 25%
     }
 
     .portfolioBox {
-        margin: 0px 10px 0px 10px;
-        width: 90%;
+        margin-left: 10px;
+        margin-right: 0px;
+        width: 60%;
     }
 
     .portfolio {
@@ -265,11 +265,25 @@ button {
         max-width: 100%;
         float: left;
     }
-    div.portfolio:nth-of-type(2n) {
-        margin: 22px 0px;
-        margin-right: 0px;
-        float: right;
+
+    .portfolio img {
+        height: 175px;
+        width: 275px;
     }
+
+    .portfolioTitle {
+        width: 275px;
+        height: 40px;
+    }
+
+    input {
+        width:560px; 
+    }
+    
+    textarea {
+        width: 560px; 
+    }
+    
 }
 
 @media only screen and (max-width: 768px) {
@@ -326,11 +340,16 @@ button {
         max-width: 100%;
         float: left;
     }
-    div.portfolio:nth-of-type(2n) {
-        margin: 22px 0px;
-        margin-right: 0px;
-        float: right;
+
+    input {
+        width:680px; 
     }
+    
+    textarea {
+        width: 680px; 
+    }
+    
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -396,9 +415,12 @@ button {
         max-width: 100%;
         float: left;
     }
-    div.portfolio:nth-of-type(2n) {
-        margin: 22px 0px;
-        margin-right: 0px;
-        float: right;
+
+    input {
+        width:570px; 
+    }
+    
+    textarea {
+        width: 570px; 
     }
 } 
